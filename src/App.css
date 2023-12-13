@@ -1,0 +1,15 @@
+.preview-container {
+    max-width: 100%;
+    overflow: hidden;
+    text-wrap: wrap;
+    
+}
+#preview-text {
+    word-wrap: break-word; /* Ensure long words wrap to the next line */
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
